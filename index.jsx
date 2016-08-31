@@ -77,7 +77,7 @@ function defaultGetHeight (element) {
  * module.exports = Dimensions()(MyComponent) // Enhanced component
  *
  */
-module.exports = function Dimensions ({
+export default function ({
     getHeight = defaultGetHeight,
     getWidth = defaultGetWidth,
     containerStyle = defaultContainerStyle,
